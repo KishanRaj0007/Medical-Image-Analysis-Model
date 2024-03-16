@@ -1,0 +1,2 @@
+0 Non_Demented
+1 Moderate Demented
