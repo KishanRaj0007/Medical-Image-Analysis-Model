@@ -3,7 +3,7 @@ from keras.models import load_model
 from PIL import Image
 from util import classify, set_background
 
-set_background(r'C:\Users\kisha\OneDrive\Desktop\dsa.jpg')
+set_background('dsa.jpg')
 
 # Set title
 st.markdown('<h1 style="color: black;">Disease Detection Model</h1>', unsafe_allow_html=True)
@@ -21,14 +21,14 @@ file = st.file_uploader('', type=['jpeg', 'png', 'jpg'])
 
 # Load the classifier based on the selected disease
 if disease == "Alzheimer's Disease":
-    model_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\pythonProject\keras_model.h5'
-    labels_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\pythonProject\labels.txt'
+    model_path = 'keras_model1.h5'
+    labels_path = 'labels1.txt'
 elif disease == "Lung Cancer":
-    model_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\lung\keras_model.h5'
-    labels_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\lung\labels.txt'
+    model_path = 'keras_model2.h5'
+    labels_path = 'labels2.txt'
 elif disease == "Pneumonia":
-    model_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\chest_xray\keras_model.h5'
-    labels_path = r'C:\Users\kisha\OneDrive\Desktop\Projects\PyCharm\chest_xray\labels.txt'
+    model_path = 'keras_model3.h5'
+    labels_path = 'labels3.txt'
 
 
 model = load_model(model_path)
