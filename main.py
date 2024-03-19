@@ -11,7 +11,7 @@ st.markdown('<h1 style="color: black;">Disease Detection Model</h1>', unsafe_all
 # Let the user choose which disease to detect
 disease = st.radio("Select Disease to Detect", ["Lung Cancer", "Alzheimer's Disease", "Pneumonia"])
 
-
+st.markdown('<h3 style="color: black;">Upload brain MRI image for Alzheimer, chest X ray of Pneumonia and Histopathological image for lung cancer</h3>', unsafe_allow_html=True)
 
 # Set header with smaller font size and light color
 st.markdown('<h2 style="color: black;">Please upload the Medical image of the patient</h2>', unsafe_allow_html=True)
