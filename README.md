@@ -85,4 +85,6 @@ Web App
 8. Reddit for problem solutions 
 9. ChatGPT for detecting possible solutions for a critical stuck 
 situation.
-10. Pytorch tutorial
+10. Pytorch tutorial(torchvision and torchmetrics included)
+11. Pydicom documentation
+12. pytorch lightening documentation(https://lightning.ai/docs/pytorch/stable/common/lightning_module.html) -  MOST HELPFUL
