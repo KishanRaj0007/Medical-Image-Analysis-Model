@@ -84,4 +84,5 @@ version updation.
 Web App 
 8. Reddit for problem solutions 
 9. ChatGPT for detecting possible solutions for a critical stuck 
-situation. 
+situation.
+10. Pytorch tutorial
