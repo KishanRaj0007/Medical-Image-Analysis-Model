@@ -1,4 +1,4 @@
-# Description:-- 
+# Description
 The project is a Disease Detection Model, 
 which allows users to upload medical images of patients 
 and detect various diseases such as Lung Cancer, 
@@ -10,7 +10,7 @@ professionals in diagnosing diseases accurately and
 efficiently. 
 
 
-# Features:- 
+# Features
 Disease Detection: Users can select the type of disease they 
 want to detect from a list including Lung Cancer, Alzheimer's Disease, and 
 Pneumonia. 
@@ -32,7 +32,7 @@ predicted disease class, indicating the reliability of the prediction.
 enhancing the overall visual appeal and user experience.
 
 
-# Tech Stack:- 
+# Tech Stack 
 Python,  Streamlit, Tensorflow, Keras, Pillow, 
 Numpy, Base64, Html/css, 
 h5py,importlib_metadata,jax,pandas,anaconda,pip,scikit
@@ -43,7 +43,7 @@ cuda(for activating gpu),etc..
 
 
 
-# Methodology:-
+# Methodology
 A systematic approach to data collection and 
 preprocessing is adopted. A diverse dataset of medical images 
 representing each disease category is gathered. These images 
@@ -78,7 +78,7 @@ confidence scores.
 
 
 
-# Resources:-
+# Resources
 1. Udemy course:-  Deep Learning with Pytorch for Medical 
 Image Analysis. 
 2. StackOverFlow and Github for problem solutions 
