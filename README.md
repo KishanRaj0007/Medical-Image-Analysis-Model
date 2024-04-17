@@ -1,4 +1,4 @@
-DeScRiptiOn:-- The project is a Disease Detection Model, 
+#Description:-- The project is a Disease Detection Model, 
 which allows users to upload medical images of patients 
 and detect various diseases such as Lung Cancer, 
 Alzheimer's Disease, and Pneumonia. It utilizes deep 
@@ -9,24 +9,24 @@ professionals in diagnosing diseases accurately and
 efficiently. 
 
 
-FeatUReS:-  Disease Detection: Users can select the type of disease they 
+#Features:- Disease Detection: Users can select the type of disease they 
 want to detect from a list including Lung Cancer, Alzheimer's Disease, and 
 Pneumonia. 
 
- Image Upload: Users can upload medical images of patients in common 
+ ###Image Upload: Users can upload medical images of patients in common 
 formats such as JPEG, PNG, and JPG. 
 
- Classification: The uploaded images are classified using pre-trained deep 
+ ###Classification: The uploaded images are classified using pre-trained deep 
 learning models specific to each disease category. 
 
- Confidence Score: The application provides a confidence score along with the 
+ ###Confidence Score: The application provides a confidence score along with the 
 predicted disease class, indicating the reliability of the prediction. 
 
- Customizable Background: The user interface offers a customizable background, 
+ ###Customizable Background: The user interface offers a customizable background, 
 enhancing the overall visual appeal and user experience.
 
 
-tecH StacK:- Python,  Streamlit, Tensorflow, Keras, Pillow, 
+#Tech Stack:- Python,  Streamlit, Tensorflow, Keras, Pillow, 
 Numpy, Base64, Html/css, 
 h5py,importlib_metadata,jax,pandas,anaconda,pip,scikit
 learn,tensorboard,simpleitk,tensorboardx,torchaudio,torchmetr
@@ -36,7 +36,7 @@ cuda(for activating gpu),etc..
 
 
 
-metHODOlOgy:-A systematic approach to data collection and 
+#Methodology:-A systematic approach to data collection and 
 preprocessing is adopted. A diverse dataset of medical images 
 representing each disease category is gathered. These images 
 undergo preprocessing steps to standardize their size, format, 
@@ -70,7 +70,7 @@ confidence scores.
 
 
 
-ReSOURceS:- 
+#Resources:-
 1. Udemy course:-  Deep Learning with Pytorch for Medical 
 Image Analysis. 
 2. StackOverFlow and Github for problem solutions 
